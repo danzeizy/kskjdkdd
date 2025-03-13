@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Make static QRIS to dynamic QRIS",
   "main": "index.js",
+  "scripts": {
+    "start": "node api/qris.js"
+  },
   "dependencies": {
     "express": "^4.21.2",
     "jimp": "^0.16.1",
