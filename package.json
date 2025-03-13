@@ -1,0 +1,37 @@
+{
+  "name": "qris-dinamis",
+  "version": "1.0.2",
+  "description": "Make static QRIS to dynamic QRIS",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.21.2",
+    "jimp": "^0.16.1",
+    "qrcode": "^1.5.4"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razisek/Qris-Dinamis.git"
+  },
+  "keywords": [
+    "qris",
+    "qris-parser",
+    "dinamis",
+    "qris-dinamis",
+    "payment"
+  ],
+  "author": "Rachma Azis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/razisek/Qris-Dinamis/issues"
+  },
+  "homepage": "https://github.com/razisek/Qris-Dinamis#readme"
+}
